@@ -16,6 +16,6 @@ var GS=['https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json','https:/
 function stampFrom(j){var d=new Date(j.generatedAt||'');if(!isNaN(d))document.getElementById('stamp').textContent=' · updated '+d.toLocaleString(undefined,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}
 function applyData(j,first){DESTS=(j.destinations||[]).filter(function(d){return d.status!=='In Review'&&d.c&&d.c.length});index();render();stampFrom(j);if(first){load(0)}else{restyle();if(geoLayer)geoLayer.eachLayer(function(l){if(l.feature)l.setTooltipContent(tip(code(l.feature),name(l.feature)))});dotLayers.forEach(function(m){m.setTooltipContent(tip(m._code,m._name))})}}
 var lastRaw=null;function fetchData(first){fetch('data.json?ts='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error(r.status);return r.text()}).then(function(t){if(!first&&t===lastRaw)return;lastRaw=t;applyData(JSON.parse(t),first)}).catch(function(){if(first)document.getElementById('loading').innerHTML='<b>Could not load travel data.</b><br>Please refresh.'})}
-fetchData(true);setInterval(function(){fetchData(false)},60000);document.addEventListener('visibilitychange',function(){if(!document.hidden)fetchData(false)});
+fetchData(true);setInterval(function(){fetchData(false)},15000);document.addEventListener('visibilitychange',function(){if(!document.hidden)fetchData(false)});
 })();
 </script></body></html>
