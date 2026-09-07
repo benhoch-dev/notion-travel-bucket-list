@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T16:46:00Z",
+ "generatedAt": "2026-09-07T16:51:32Z",
  "source": "notion",
  "unmapped": [],
  "destinations": [
@@ -32,6 +32,6 @@
   { "name": "Istanbul", "status": "Want to go", "budget": "$$", "c": [792], "continent": "Europe" },
   { "name": "Liechtenstein", "status": "Visited", "c": [438] },
   { "name": "Belgium", "status": "In Planning", "budget": "$", "c": [56], "continent": "Europe" },
-  { "name": "🇫🇷 Corsica, France", "status": "Visited", "c": [250] }
+  { "name": "🇫🇷 Corsica, France", "status": "Visited", "year": 2014, "c": [250] }
  ]
 }
