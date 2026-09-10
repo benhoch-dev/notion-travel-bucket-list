@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T20:31:55Z",
+ "generatedAt": "2026-09-10T17:20:21Z",
  "source": "notion",
  "unmapped": [],
  "destinations": [
@@ -7,6 +7,10 @@
   { "name": "Madrid", "status": "In Planning", "budget": "$", "c": [724], "continent": "Europe" },
   { "name": "Berlin", "status": "Visited", "budget": "$", "year": 2017, "c": [276], "continent": "Europe" },
   { "name": "Singapore", "status": "Want to go", "budget": "$$", "c": [702], "continent": "Asia" },
+  { "name": "Switzerland", "status": "Visited", "c": [756] },
+  { "name": "Liechtenstein", "status": "Visited", "c": [438] },
+  { "name": "Austria", "status": "Visited", "year": 2013, "c": [40] },
+  { "name": "Corsica, France", "status": "Visited", "year": 2014, "c": [250] },
   { "name": "Dubrovnik & Split", "status": "Want to go", "budget": "$$", "c": [191], "continent": "Europe" },
   { "name": "Budapest", "status": "Want to go", "budget": "$", "c": [348], "continent": "Europe" },
   { "name": "Petra, Jordan", "status": "Want to go", "budget": "$", "c": [400], "continent": "Asia" },
@@ -16,6 +20,7 @@
   { "name": "Barcelona", "status": "Want to go", "budget": "$$", "c": [724], "continent": "Europe" },
   { "name": "Ireland", "status": "Visited", "budget": "$$", "year": 2019, "c": [372], "continent": "Europe" },
   { "name": "Japan", "status": "Want to go", "budget": "$$$", "c": [392], "continent": "Asia" },
+  { "name": "Belgium", "status": "In Planning", "budget": "$", "c": [56], "continent": "Europe" },
   { "name": "Iceland", "status": "Want to go", "budget": "$$$", "c": [352], "continent": "Europe" },
   { "name": "Backpack South East Asia", "status": "Want to go", "budget": "$$$", "c": [704, 116, 764], "continent": "Asia" },
   { "name": "Dubai", "status": "Visited", "budget": "$$$", "year": 2018, "c": [784], "continent": "Asia" },
@@ -27,11 +32,7 @@
   { "name": "Great Wall of China", "status": "Want to go", "budget": "$$", "c": [156], "continent": "Asia" },
   { "name": "Paris", "status": "Want to go", "budget": "$$", "c": [250], "continent": "Europe" },
   { "name": "Himalayas", "status": "Want to go", "budget": "$$$", "c": [524], "continent": "Asia" },
-  { "name": "Switzerland", "status": "Visited", "c": [756] },
-  { "name": "Austria", "status": "Visited", "year": 2013, "c": [40] },
   { "name": "Istanbul", "status": "Want to go", "budget": "$$", "c": [792], "continent": "Europe" },
-  { "name": "Liechtenstein", "status": "Visited", "c": [438] },
-  { "name": "Belgium", "status": "In Planning", "budget": "$", "c": [56], "continent": "Europe" },
-  { "name": "Corsica, France", "status": "Visited", "year": 2014, "c": [250] }
+  { "name": "Prague", "status": "Want to go", "budget": "$", "c": [203], "continent": "Europe" }
  ]
 }
