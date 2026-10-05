@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T15:39:37Z",
+ "generatedAt": "2026-10-05T19:12:55Z",
  "source": "notion",
  "unmapped": [],
  "destinations": [
@@ -34,6 +34,7 @@
   { "name": "Great Wall of China", "status": "Want to go", "budget": "$$", "c": [156], "continent": "Asia" },
   { "name": "Paris", "status": "Want to go", "budget": "$$", "c": [250], "continent": "Europe" },
   { "name": "Himalayas", "status": "Want to go", "budget": "$$$", "c": [524], "continent": "Asia" },
-  { "name": "Istanbul", "status": "Want to go", "budget": "$$", "c": [792], "continent": "Europe" }
+  { "name": "Istanbul", "status": "Want to go", "budget": "$$", "c": [792], "continent": "Europe" },
+  { "name": "Greece", "status": "Want to go", "budget": "$$$", "c": [300], "continent": "Europe" }
  ]
 }
