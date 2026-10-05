@@ -1,10 +1,11 @@
 {
- "generatedAt": "2026-10-05T15:23:48Z",
+ "generatedAt": "2026-10-05T15:29:13Z",
  "source": "notion",
  "unmapped": [],
  "destinations": [
   { "name": "Namibia", "status": "Want to go", "budget": "$$$$", "c": [516], "continent": "Africa" },
   { "name": "Madrid", "status": "Visited", "budget": "$", "c": [724], "continent": "Europe", "year": 2026 },
+  { "name": "Tanzania", "status": "Want to go", "budget": "$$", "c": [834], "continent": "Africa" },
   { "name": "Berlin", "status": "Visited", "budget": "$", "c": [276], "continent": "Europe", "year": 2017 },
   { "name": "Singapore", "status": "Want to go", "budget": "$$", "c": [702], "continent": "Asia" },
   { "name": "Switzerland", "status": "Visited", "c": [756] },
